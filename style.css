@@ -9,7 +9,13 @@ ul {
    list-style-type: none;
 }
 
-#menu {
+a:link {
+    color: #0000d0; 
+   }
+a:hover {
+    color: #978291; 
+}
+.menu {
     color: black;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -24,30 +30,23 @@ ul {
     background-color: #eaeaea  
 }
 .good_text {}
-#description_header {}
-#description_text {
+
+.description_text {
     color: #707070;
     font-size: 14px;
     font-style:italic;
     line-height: 16px;
 }
 
-#info_header {}
+.info_header {}
 
-#info_text {
+.info_text {
     color: #978291;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align:left;
-    
+    text-align:left; 
 }
-
-#recomendations_header {}
-#recomendations_text {}
-#abstract_header {}
-#abstract_text {}
-#characteristics_header {}
 
 .good_list {
     font-family: serif;
@@ -63,6 +62,26 @@ ul {
     font-size: 16px;
 }
 
-.good_img{
+.good_img {
     border: 10px solid #ECCBE2;
 }
+.good_img:hover{
+     border: 10px solid #f8f8f8
+}
+
+input { 
+    text-transform: capitalize; 
+   }
+.email:hover{
+    color:  #978291;
+    background-color: azure;
+}
+
+p:first{
+    text-transform: uppercase;
+    
+}
+.footer{}
+
+.header{}
+
