@@ -1,0 +1,68 @@
+/*https://www.htmlcsscolor.com/hex/ECCBE2
+*/
+
+body {
+background-color: #f8f8f8;
+}
+
+ul {
+   list-style-type: none;
+}
+
+#menu {
+    color: black;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.65; 
+}
+
+.good_header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea  
+}
+.good_text {}
+#description_header {}
+#description_text {
+    color: #707070;
+    font-size: 14px;
+    font-style:italic;
+    line-height: 16px;
+}
+
+#info_header {}
+
+#info_text {
+    color: #978291;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align:left;
+    
+}
+
+#recomendations_header {}
+#recomendations_text {}
+#abstract_header {}
+#abstract_text {}
+#characteristics_header {}
+
+.good_list {
+    font-family: serif;
+    font-size: 18px;
+    color: #796874;  
+    list-style-image: url("pic/chz.jpg");
+}
+
+.contacts_input {
+    height: 16px;
+    width: 300px;
+    color: #061410;
+    font-size: 16px;
+}
+
+.good_img{
+    border: 10px solid #ECCBE2;
+}

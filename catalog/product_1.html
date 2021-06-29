@@ -3,6 +3,7 @@
 <html>
     
 <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <title>Samizdat</title>
     <meta charset="UTF-8">
     <h1>SAMIZDAT</h1>
@@ -12,7 +13,7 @@
     
 <body>
     <h2>Товар каталога</h2>
-    <ul>
+    <ul id="menu">
         <li><a href="../index.html">Главная</a></li>
         <li><a href="../contacts.html">Контакты</a></li>
         <li><a href="product.html">Товар каталога</a></li>
@@ -23,31 +24,31 @@
             </b>
     </p>
     <ul>
-        <li><a href="#Info">Подробное описание</a></li>
-        <li><a href="#Recomendations">Рекомендации</a></li>
-        <li><a href="#Abstract">Содержание</a></li>
+        <li><a href="#infod_header">Подробное описание</a></li>
+        <li><a href="#recomendations_header">Рекомендации</a></li>
+        <li><a href="#abstract_header">Содержание</a></li>
     </ul>
-    <h2>Описание товара</h2>
-          <a href="../bgk.jpg" target="_blank"> <img src="../bgk.jpg" height="90px." width="90px."></a>
-    <p>Зин от Тимура Алоева</p>
-    <h2>Характеристики товара</h2>
+    <h2 id="description_header" class="good_header">Описание товара</h2>
+          <a href="../pic/bgk.jpg" target="_blank"> <img class="good_img" src="../pic/bgk.jpg" height="90px." width="90px."></a>
+    <p id="description_text" class="good_text">Зин от Тимура Алоева</p>
+    <h2 id="characteristics_header" class="good_header">Характеристики товара</h2>
 
-    <ul>
+    <ul class="good_list">
             <li>Яркие краски</li>
             <li>Напечатано на ризографе</li>
             <li>Заговорено на денежки</li>
     </ul>
 
-    <h2 id="Info">Подробное описание товара</h2>
-    <p>
+    <h2 id="info_header" class="good_header">Подробное описание товара</h2>
+    <p id="info_text" class="good_text">
         ярчайший сборник супер артов в лучших традициях бегаки
     </p>
-    <h2 id="Recomendations">Рекомендации</h2>
-    <p>
+    <h2 id="recomendations_header" class="good_header">Рекомендации</h2>
+    <p id="recomendations_text" class="good_text">
         Хранить в доступном для всех месте, хвастаться буком и хвалить художника
     </p>
-    <h2 id="Abstract">Содержание</h2>
-    <p>
+    <h2 id="abstract_header" class="good_header">Содержание</h2>
+    <p id="abstract_text" class="good_text">
          Позолотите ручку бедняжке-дворняжке Тимуру
      </p>
 
